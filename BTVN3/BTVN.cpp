@@ -31,7 +31,7 @@ int main(){
 			break;
 			case 6: printf("Hom nay la thu 7");
 			break;
-			case 7: printf("Hom nay la chu Chu nhat");
+			case 0: printf("Hom nay la chu Chu nhat");
 			break;
 		}
 		printf(" Va la ngay thu: %d trong nam",nDay);
@@ -56,7 +56,7 @@ int main(){
 			break;
 			case 6: printf("Hom nay la thu 7");
 			break;
-			case 7: printf("Hom nay la chu Chu nhat");
+			case 0: printf("Hom nay la chu Chu nhat");
 			break;
 		}
 		printf(" Va la ngay thu: %d trong nam",nDay);
@@ -79,7 +79,7 @@ int main(){
 			break;
 			case 6: printf("Hom nay la thu 7");
 			break;
-			case 7: printf("Hom nay la chu Chu nhat");
+			case 0: printf("Hom nay la chu Chu nhat");
 			break;
 		}
 		printf(" Va la ngay thu: %d trong nam",nDay);
@@ -104,7 +104,7 @@ int main(){
 			break;
 			case 6: printf("Hom nay la thu 7");
 			break;
-			case 7: printf("Hom nay la chu Chu nhat");
+			case 0: printf("Hom nay la chu Chu nhat");
 			break;
 		}
 		printf(" Va la ngay thu: %d trong nam",nDay);
@@ -127,7 +127,7 @@ int main(){
 			break;
 			case 6: printf("Hom nay la thu 7");
 			break;
-			case 7: printf("Hom nay la chu Chu nhat");
+			case 0: printf("Hom nay la chu Chu nhat");
 			break;
 		}
 		printf(" Va la ngay thu: %d trong nam",nDay);
@@ -152,7 +152,7 @@ int main(){
 			break;
 			case 6: printf("Hom nay la thu 7");
 			break;
-			case 7: printf("Hom nay la chu Chu nhat");
+			case 0: printf("Hom nay la chu Chu nhat");
 			break;
 		}
 		printf(" Va la ngay thu: %d trong nam",nDay);
@@ -175,7 +175,7 @@ int main(){
 			break;
 			case 6: printf("Hom nay la thu 7");
 			break;
-			case 7: printf("Hom nay la chu Chu nhat");
+			case 0: printf("Hom nay la chu Chu nhat");
 			break;
 		}
 		printf(" Va la ngay thu: %d trong nam",nDay);
@@ -197,7 +197,7 @@ int main(){
 			break;
 			case 6: printf("Hom nay la thu 7");
 			break;
-			case 7: printf("Hom nay la chu Chu nhat");
+			case 0: printf("Hom nay la chu Chu nhat");
 			break;
 		}
 		printf(" Va la ngay thu: %d trong nam",nDay);
@@ -222,7 +222,7 @@ int main(){
 			break;
 			case 6: printf("Hom nay la thu 7");
 			break;
-			case 7: printf("Hom nay la chu Chu nhat");
+			case 0: printf("Hom nay la chu Chu nhat");
 			break;
 		}
 		printf(" Va la ngay thu: %d trong nam",nDay);
@@ -245,7 +245,7 @@ int main(){
 			break;
 			case 6: printf("Hom nay la thu 7");
 			break;
-			case 7: printf("Hom nay la chu Chu nhat");
+			case 0: printf("Hom nay la chu Chu nhat");
 			break;
 		}
 		printf(" Va la ngay thu: %d trong nam",nDay);
@@ -270,7 +270,7 @@ int main(){
 			break;
 			case 6: printf("Hom nay la thu 7");
 			break;
-			case 7: printf("Hom nay la chu Chu nhat");
+			case 0: printf("Hom nay la chu Chu nhat");
 			break;
 		}
 		printf(" Va la ngay thu: %d trong nam",nDay);
@@ -293,7 +293,7 @@ int main(){
 			break;
 			case 6: printf("Hom nay la thu 7");
 			break;
-			case 7: printf("Hom nay la chu Chu nhat");
+			case 0: printf("Hom nay la chu Chu nhat");
 			break;
 		}
 		printf(" Va la ngay thu: %d trong nam",nDay);
