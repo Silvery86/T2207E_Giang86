@@ -14,13 +14,22 @@ int main()
 		scanf("%d",&ary[i]);
 	}
 	high = ary[0];
-	x = 0;
+	
 
 	for(int i=1;i<n;i++)
 	{
 		if(ary[i] > high){
 			high = ary[i];
 			}
+	}
+
+	for(int i=1;i<n;i++)
+	{	
+		if(ary[i]<high){
+			x=ary[i];
+		}else{
+			printf("Khong co so lon thu 2");
+		}
 	}
 
 		for(int i=0;i<=n;i++)
