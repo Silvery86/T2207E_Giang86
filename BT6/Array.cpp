@@ -20,11 +20,13 @@ int main()
 		if(ary[i] > high){
 			high = ary[i];
 			}
-		if(ary[i]>x && ary[i] != high){
+	}
+
+		for(int i=1;i<n;i++){
+		if(ary[i] < high && x < ary[i]){
 			x = ary[i];
 		}
-
-		}
+	}
 		printf("\n Gia tri lon nhat la: %d",high);
 		printf("\n Gia tri gan lon thu 2 la: %d",x);
 }
