@@ -28,5 +28,5 @@ int main()
 		}
 	}
 		printf("\n Gia tri lon nhat la: %d",high);
-		printf("\n Gia tri gan lon thu 2 la: %d",x);
+		printf("\n Gia tri lon thu 2 la: %d",x);
 }
