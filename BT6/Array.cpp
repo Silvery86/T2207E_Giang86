@@ -14,31 +14,40 @@ int main()
 		scanf("%d",&ary[i]);
 	}
 	high = ary[0];
-	x= ary[0];
 	
-
+	
+// Duyet mang tim gia tri lon nhat high
 	for(int i=1;i<n;i++)
 	{
 		if(ary[i] > high){
 			high = ary[i];
 			}
 	}
+	printf("\n Gia tri lon nhat la: %d",high);
 
-	for(int i=1;i<n;i++){
+	x = high;
+// Tim gia tri thuoc tap khong phai la high >> gan cho x
+
+	for(int i=0;i<n;i++){
 			if(ary[i]<high){
 			x=ary[i];
-	}
+			break;
+		}
 	}	
 
-
-		for(int i=0;i<=n;i++)
+// Xay ra 2 truong hop 
+	//1. x =  high > Khong co so lon thu 2
+	//2. x != high >> Duyet tap tim gia tri lon thu 2
+	if(x==high){
+		printf("\n Khong co gia tri lon thu 2");
+	}else{
+		for(int i=0;i<n;i++)
 	{
 		if(ary[i] != high && x < ary[i]){
 			x = ary[i];
 		}
 	}
+	printf("\n Gia tri lon thu 2 la: %d",x);
 
-	
-		printf("\n Gia tri lon nhat la: %d",high);
-		printf("\n Gia tri lon thu 2 la: %d",x);
+	}
 }
