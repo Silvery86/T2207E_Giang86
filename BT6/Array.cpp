@@ -8,12 +8,13 @@ int main()
 	int high;
 	int x;
 	
-	printf("Nhap 10 so nguyen:\n");
+	printf("Nhap %d so nguyen:\n",n);
 
 	for(int i=0;i<n;i++){
 		scanf("%d",&ary[i]);
 	}
 	high = ary[0];
+	x= ary[0];
 	
 
 	for(int i=1;i<n;i++)
@@ -23,14 +24,12 @@ int main()
 			}
 	}
 
-	for(int i=1;i<n;i++)
-	{	
-		if(ary[i]<high){
+	for(int i=1;i<n;i++){
+			if(ary[i]<high){
 			x=ary[i];
-		}else{
-			printf("Khong co so lon thu 2");
-		}
 	}
+	}	
+
 
 		for(int i=0;i<=n;i++)
 	{
@@ -38,6 +37,8 @@ int main()
 			x = ary[i];
 		}
 	}
+
+	
 		printf("\n Gia tri lon nhat la: %d",high);
 		printf("\n Gia tri lon thu 2 la: %d",x);
 }
