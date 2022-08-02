@@ -27,7 +27,8 @@ int main(){
 
 
 
-	for(int i=max; i>0; i++){
+	for(int i=max; true ; i++){
+		// Bo trong dieu kien hoac de true
 
 		if(i%a==0 && i%b==0){
 		printf("Boi chung nho nhat cua a va b = %d\n",i);

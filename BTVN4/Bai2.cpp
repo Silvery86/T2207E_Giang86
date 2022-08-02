@@ -9,7 +9,7 @@ int main(){
 	int max;
 
 	while(a<n){
-		if((a%2 == 0)&&(a%3 ==0)){
+		if((a%2 == 0)&&(a%3 == 0)){
 			max = a;
 			a++;
 			}else{

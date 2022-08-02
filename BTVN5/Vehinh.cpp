@@ -40,8 +40,11 @@ printf("\n");
 printf("\n");
 
 for(int i=0;i<=5;i++){
+	// De co 5 hang
 		for(int j=0;j<i;j++){
+			// De co i nhom
 			for(int k=0;k<i;k++){
+				// De co i sao
 				printf("*");
 			}
 			printf(" ");

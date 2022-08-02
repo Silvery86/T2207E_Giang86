@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+
 int main(){
 	int day;
 	printf("Vui long nhap ngay = ");
