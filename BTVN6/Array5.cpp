@@ -9,6 +9,7 @@ int main(){
 		scanf("%d",&ary[i]);
 	}
 	 int min = ary[0];
+
 // Duyet mang gan min cho gia tri duong bat ky
 	for (int i=0;i<n;i++){
 		if(ary[i] > 0){
@@ -16,13 +17,12 @@ int main(){
 			break;}
 	}
 // Duyet mang gan min cho gia tri duong nho nhat
-		
-	for (int i=0;i<n;i++){
+		for (int i=0;i<n;i++){
 		if(ary[i] < min && ary[i]>0){
 			min = ary[i];
 		}
-	
 	}
+// Kiem tra gia tri tra ket qua
 	if(min>0){
 		printf("So duong nho nhat = %d",min);
 	}else{

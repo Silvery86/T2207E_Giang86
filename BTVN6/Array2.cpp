@@ -8,7 +8,7 @@ int main(){
 	for(int i=0;i<n;i++){
 		scanf("%d",&ary[i]);
 	}
-
+// Phan tu dau tien luon la so 0
 	int sum=0;
 	int count = 0;
 	int ave;

@@ -8,7 +8,8 @@ int main(){
 	for(int i=0;i<n;i++){
 		scanf("%d",&ary[i]);
 	}
-	int a;
+	// Khai bao gia tri boolean
+	bool a = false;
 	int x;
 	printf("Vui long nhap x=");
 	scanf("%d",&x);
@@ -16,9 +17,11 @@ int main(){
 	for(int i=0;i<n;i++){
 		if(ary[i] == x){
 			a=true;
+			break;
 		}
 	}
-	if(a==true){
+	// Vi a la gia tri boolean nen da tra ve true hoac false nen khong can so sanh
+	if(a){
 		printf("x nam trong mang");
 	}else{
 		printf("x khong nam trong mang");
