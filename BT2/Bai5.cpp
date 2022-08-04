@@ -17,4 +17,8 @@ int main(){
 		}
 		
 	}
+	printf("Cac so trong mang bao gom: ");
+	for(int i=0;i<n;i++){
+		printf(" %d ",ary[i]);
+	}
 }
