@@ -25,9 +25,9 @@ int main(){
 	}
 
 
-	for(int i=0;i<=strlen(smin);i++){
-		for(int j=0;j<=strlen(smin);j++){
-			if(smin[j]==smax[i]){
+	for(int i=0;i<strlen(smax)-strlen(smin);i++){
+		for(int j=0;j<strlen(smin);j++){
+			if(smin[j]==smax[j]){
 				count+=1;
 				if(T<count){
 					T=count;
